@@ -38,7 +38,7 @@ python main.py
 ---
 ### Example Output
 - Below is an example output of the segmentation process:
-  ![Input Image](relative/path/to/image.jpg)
+  ![Input Image](Dataset/Large.jpg)
 
 ---
 
