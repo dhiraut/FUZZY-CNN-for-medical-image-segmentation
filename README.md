@@ -36,6 +36,11 @@ python main.py
   3. Fuzzy-CNN segmentation results with IoU and Dice metrics.
 
 ---
+### Example Output
+- Below is an example output of the segmentation process:
+  ![Input Image](relative/path/to/image.jpg)
+
+---
 
 ## Repository Structure
 ```
