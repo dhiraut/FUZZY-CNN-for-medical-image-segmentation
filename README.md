@@ -1,13 +1,13 @@
 # Fuzzy-CNN Segmentation
 
-This repository contains an implementation of fuzzy and traditional CNN-based segmentation for medical images. The code provides preprocessing, fuzzification, segmentation, and evaluation functionalities.
+This repository contains an implementation of fuzzy and CNN-based segmentation for medical images. The code provides preprocessing, fuzzification, segmentation, and evaluation functionalities.
 
 ## How to Run
 
 ### Clone the Repository
 ```bash
 git clone https://github.com/your-username/fuzzy-cnn-segmentation.git
-cd fuzzy-cnn-segmentation
+cd FUZZY-CNN-for-medical-image-segmentation
 ```
 
 ### Install Dependencies
