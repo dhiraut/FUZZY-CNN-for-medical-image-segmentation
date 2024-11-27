@@ -1,27 +1,51 @@
-# How to Run
-Clone the Repository
+# Fuzzy-CNN Segmentation
 
-bash
-Copy code
+This repository contains an implementation of fuzzy and traditional CNN-based segmentation for medical images. The code provides preprocessing, fuzzification, segmentation, and evaluation functionalities.
+
+## How to Run
+
+### Clone the Repository
+```bash
 git clone https://github.com/your-username/fuzzy-cnn-segmentation.git
 cd fuzzy-cnn-segmentation
-Install Dependencies
+```
 
-bash
-Copy code
+### Install Dependencies
+Install the required Python libraries:
+```bash
 pip install numpy matplotlib
-Set the Image Path
+```
 
-Place your medical image in the repository folder.
-Update the path in main.py:
-python
-Copy code
-input_image = plt.imread('path/to/your/image.jpg')[:, :, 0]
-Run the Program
+### Set the Image Path
+1. Place your medical image in the repository folder.
+2. Update the image path in `main.py`:
+    ```python
+    input_image = plt.imread('path/to/your/image.jpg')[:, :, 0]
+    ```
 
-bash
-Copy code
+### Run the Program
+Run the segmentation script:
+```bash
 python main.py
-View Results
+```
 
-The segmentation outputs and metrics will be displayed.
+### View Results
+- The program will display:
+  1. The input medical image.
+  2. Traditional CNN segmentation results with IoU and Dice metrics.
+  3. Fuzzy-CNN segmentation results with IoU and Dice metrics.
+
+---
+
+## Repository Structure
+```
+|-- fuzzy-cnn-segmentation
+    |-- main.py       # The main script for fuzzy and traditional CNN segmentation
+    |-- README.md     # This readme file
+    |-- requirements.txt # Dependencies list (optional)
+    |-- example.jpg   # Example medical image (if applicable)
+```
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
